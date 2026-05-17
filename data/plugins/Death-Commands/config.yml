@@ -1,0 +1,13 @@
+# Configuración corregida para el ciclo Hardcore
+Version: 3
+Debug: false
+
+# No tocar esta parte, deja que funcione en todos los mundos
+EW: false
+
+# Esta es la sección que te faltaba y la más importante:
+death-actions:
+  custom-commands:
+    enabled: true
+    commands:
+      - "reiniciarmundo"

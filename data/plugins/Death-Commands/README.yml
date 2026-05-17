@@ -1,0 +1,20 @@
+
+# --- Death Commands ---
+#Plugin made by Aiki Plugin Development
+
+#Runs Commands Upon Player Death And Kill 
+ 
+
+
+
+# - General Permissions -
+#Commands Permissions:
+#    DC.Reload: Allows User to reload all Config/DeathActions/PlayerData Information
+#    DC.Debug: Allows User to Toggle Debug Mode    
+#Exclusion Permissions:
+#    DC.DCExclude: Excludes Player with this permission from Death Commands
+#    DC.DBExclude: Excludes Player with this permission from Death Broadcasts
+#    DC.RCExclude: Excludes Player with this permission from Respawn Commands
+#    DC.RBExclude: Excludes Player with this permission from Respawn Broadcasts
+        
+   

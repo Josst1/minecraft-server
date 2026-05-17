@@ -1,0 +1,312 @@
+[22:15:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:15:55] [ServerMain/INFO]: Loaded 1174 recipes
+[22:15:55] [ServerMain/INFO]: Loaded 1271 advancements
+[22:15:58] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[22:15:58] [Server thread/INFO]: Loading properties
+[22:15:59] [Server thread/INFO]: This server is running Paper version git-Paper-499 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9de3f75 on ver/1.20.4)
+[22:16:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:16:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:16:01] [Server thread/ERROR]: [Configurations] Loading a newer configuration than is supported (31 > 29)! You may have to backup & delete your global config file to start the server.
+[22:16:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[22:16:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[22:16:03] [Server thread/INFO]: Default game type: SURVIVAL
+[22:16:03] [Server thread/INFO]: Generating keypair
+[22:16:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:16:03] [Server thread/INFO]: Using epoll channel type
+[22:16:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:16:04] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[22:16:06] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
+[22:16:06] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
+[22:16:09] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:16:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[22:16:10] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[22:16:11] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[22:16:12] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
+[22:16:12] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b132-5a72b6a)
+[22:16:16] [Server thread/INFO]: [floodgate] Took 4,098ms to boot Floodgate
+[22:16:16] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.1
+[22:16:16] [Server thread/INFO]: [MyCommand] Loading server plugin MyCommand v5.7.4
+[22:16:16] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[22:16:16] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.0-SNAPSHOT
+[22:16:19] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:16:19] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:16:19] [Server thread/INFO]: [Death-Commands] Loading server plugin Death-Commands v3.0.1
+[22:16:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:16:19] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.1
+[22:16:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:16:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:16:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:16:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:16:19] [Server thread/INFO]: Preparing level "lobby"
+[22:16:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:16:26] [Server thread/INFO]: Time elapsed: 3505 ms
+[22:16:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:16:26] [Server thread/INFO]: Time elapsed: 482 ms
+[22:16:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:16:26] [Server thread/INFO]: Time elapsed: 188 ms
+[22:16:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
+[22:16:27] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[22:16:27] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
+[22:16:27] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b132-5a72b6a)
+[22:16:33] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.4
+[22:16:33] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.4*-=-=-=-=-=-=-=-=-=-*
+[22:16:33] [Server thread/INFO]: | Vault plugin not found. Using BukkitPermissions
+[22:16:33] [Server thread/INFO]: | No Economy support without Vault!
+[22:16:33] [Server thread/INFO]: | Command file(s) found : 1
+[22:16:34] [Server thread/INFO]: | Config : Ready.
+[22:16:34] [Server thread/INFO]: | ProtocolLib not found.
+[22:16:34] [Server thread/INFO]: | 2 extra listeners activated
+[22:16:34] [Server thread/INFO]: | PlaceholderAPI: Not Found
+[22:16:34] [Server thread/INFO]: | Custom commands loaded : 1
+[22:16:35] [Server thread/INFO]: | New update available : MyCommand v5.7.5
+[22:16:35] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[22:16:35] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[22:16:35] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[22:16:35] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[22:16:35] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[22:16:37] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[22:16:38] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.0-SNAPSHOT
+[22:16:45] [Server thread/INFO]: [Death-Commands] Enabling Death-Commands v3.0.1
+[22:16:45] [Server thread/INFO]: ###########################
+[22:16:45] [Server thread/INFO]: #    Death Commands 3.0.1 #
+[22:16:45] [Server thread/INFO]: ###########################
+[22:16:45] [Server thread/INFO]: [Death Commands] Enabling
+[22:16:45] [Server thread/INFO]: [Death Commands] Made by Aiki Plugin Development
+[22:16:45] [Server thread/INFO]: [Death Commands][Debug]-> Could not find PlaceholderAPI! 
+[22:16:45] [Server thread/INFO]: [Death Commands][Debug]-> isDev: false
+[22:16:45] [Server thread/INFO]: [Death Commands] Config has been Loaded
+[22:16:45] [Server thread/INFO]: [Death Commands] Death Actions Version Correct
+[22:16:45] [Server thread/INFO]: [Death Commands] DeathActions has been Loaded
+[22:16:45] [Server thread/INFO]: [Death Commands] PlayerData has been Loaded
+[22:16:45] [Server thread/INFO]: [Death Commands] ReadMe has been Loaded
+[22:16:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:16:47] [Server thread/INFO]: [Geyser-Spigot] 
+[22:16:47] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.0-b1148 (git-master-ba17cf2)
+[22:16:47] [Server thread/INFO]: [Geyser-Spigot] 
+[22:16:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:16:56] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[22:16:56] [Server thread/INFO]: [Geyser-Spigot] Done (9.006s)! Run /geyser help for help!
+[22:16:59] [Server thread/INFO]: Starting remote control listener
+[22:16:59] [Server thread/INFO]: Thread RCON Listener started
+[22:16:59] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[22:16:59] [Server thread/INFO]: Running delayed init tasks
+[22:16:59] [Server thread/INFO]: Done (61.354s)! For help, type "help"
+[22:16:59] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:16:59] [Server thread/INFO]: Timings Reset
+[22:17:09] [Server thread/INFO]: [MyCommand] found an update for MyCommand. Type /mycommand for more infos.
+[22:17:17] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username Joss9503 (975)
+[22:17:17] [localSession-7-2/INFO]: [Geyser-Spigot] Joss9503 (logged in as: Joss9503) has connected to the Java server
+[22:17:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Joss9503 joined (UUID: 00000000-0000-0000-0009-01fbabb77cdd)
+[22:17:21] [Server thread/INFO]: .Joss9503 joined the game
+[22:17:21] [Server thread/INFO]: .Joss9503[/172.18.0.1:0] logged in with entity id 309 at ([lobby]0.0, 63.00000999523162, 32.0)
+[22:17:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3160ms or 63 ticks behind
+[22:18:12] [Server thread/INFO]: No entity was found
+[22:18:12] [Server thread/INFO]: Summoned new Armor Stand
+[22:18:21] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-499 (MC: 1.20.4) ---
+[22:18:21] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[22:18:21] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:18:21] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[22:18:21] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
+[22:18:21] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 2600,2451) in 'lobby']
+[22:18:21] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=lobby, chunkX=2600, chunkZ=2451, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:initialize_light}, currentGenStatus=minecraft:initialize_light, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=IDLE, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=11, fullNeighbourChunksLoadedBitset=0, chunkStatusRaw=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
+[22:18:21] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:zombie, entity class: net.minecraft.world.entity.monster.EntityZombie
+[22:18:21] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[22:18:21] [Paper Watchdog Thread/ERROR]: Entity UUID: b4ea3961-661a-4dff-a1b5-e590445c60ea
+[22:18:21] [Paper Watchdog Thread/ERROR]: Position: world: 'lobby' at location (15.784283037704604, 66.0, 61.33846216776637)
+[22:18:21] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[22:18:21] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[15.484283025783675, 66.0, 61.038462155845444] -> [16.084283049625533, 67.95000004768372, 61.6384621796873]
+[22:18:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:18:22] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[22:18:22] [Paper Watchdog Thread/ERROR]: 	PID: 52 | Suspended: false | Native: false | State: TIMED_WAITING
+[22:18:22] [Paper Watchdog Thread/ERROR]: 	Stack:
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.3/jdk.internal.misc.Unsafe.park(Native Method)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.3/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:144)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:134)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:282)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:898)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getBlockState(Level.java:1177)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.SpreadPlayersCommand$Position.getSpawnY(SpreadPlayersCommand.java:305)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.SpreadPlayersCommand$Position.isSafe(SpreadPlayersCommand.java:317)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.SpreadPlayersCommand.spreadPositions(SpreadPlayersCommand.java:162)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.SpreadPlayersCommand.spreadPlayers(SpreadPlayersCommand.java:76)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.SpreadPlayersCommand.lambda$register$4(SpreadPlayersCommand.java:56)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.CommandSpreadPlayers$$Lambda/0x0000000045b04c08.run(Unknown Source)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x0000000046e1f7e0.execute(Unknown Source)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:336)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:318)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:43)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		MyCommand.jar//it.emmerrei.mycommand.Main.RunCommandsAsConsoleSender(Main.java:781)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		MyCommand.jar//it.emmerrei.mycommand.listener.ConsoleListener.ExecuteCommandFromConsole(ConsoleListener.java:719)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		MyCommand.jar//it.emmerrei.mycommand.commands.CmdCustomCommands.onCommand(CmdCustomCommands.java:104)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		MyCommand.jar//it.emmerrei.mycommand.Main.RunCommandsAsConsoleSender(Main.java:781)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		MyCommand.jar//it.emmerrei.mycommand.listener.EventCommandExecuter.Execute(EventCommandExecuter.java:196)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		MyCommand.jar//it.emmerrei.mycommand.listener.extra.PlayerDeath.onPlayerDeath(PlayerDeath.java:110)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor22.execute(Unknown Source)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:1019)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.die(ServerPlayer.java:968)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1565)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.player.Player.hurt(Player.java:970)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1135)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Mob.doHurtTarget(Mob.java:1689)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.monster.Zombie.doHurtTarget(Zombie.java:365)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.goal.MeleeAttackGoal.checkAndPerformAttack(MeleeAttackGoal.java:130)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.goal.MeleeAttackGoal.tick(MeleeAttackGoal.java:122)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.goal.ZombieAttackGoal.tick(ZombieAttackGoal.java:28)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:153)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:144)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Mob.serverAiStep(Mob.java:926)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3417)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Mob.aiStep(Mob.java:676)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.monster.Monster.aiStep(Monster.java:45)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.monster.Zombie.aiStep(Zombie.java:270)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3066)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Mob.tick(Mob.java:438)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.monster.Zombie.tick(Zombie.java:240)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1409)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda/0x0000000046b6f420.accept(Unknown Source)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.guardEntityTick(Level.java:1318)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$8(ServerLevel.java:916)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda/0x0000000046b6f1e0.accept(Unknown Source)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:42)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:896)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1724)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000000045bd7ae0.run(Unknown Source)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.3/java.lang.Thread.runWith(Unknown Source)
+[22:18:23] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.3/java.lang.Thread.run(Unknown Source)
+[22:18:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:18:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[22:18:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:18:23] [Server thread/INFO]: Spread 1 player(s) around 20000.5, 20000.5 with an average distance of 0.00 blocks apart
+[22:18:23] [Server thread/INFO]: Set the world spawn point to 41603, 100, 39216 [0.0]
+[22:18:23] [Server thread/INFO]: Set spawn point to 41603, 100, 39216 [0.0] in minecraft:overworld for .Joss9503
+[22:18:23] [Server thread/INFO]: Removed 2 item(s) from player .Joss9503
+[22:18:23] [Server thread/INFO]: Killed .Joss9503
+[22:18:23] [Server thread/INFO]: Killed Armor Stand
+[22:18:24] [Server thread/INFO]: .Joss9503 was slain by Zombie
+[22:18:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13334ms or 266 ticks behind
+[22:19:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2776ms or 55 ticks behind
+[22:19:30] [Server thread/WARN]: .Joss9503 moved too quickly! -9.536000000000058,-3.0,-1.629000000000815
+[22:21:09] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username Jossi7816 (975)
+[22:21:09] [localSession-7-3/INFO]: [Geyser-Spigot] Jossi7816 (logged in as: Jossi7816) has connected to the Java server
+[22:21:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Jossi7816 joined (UUID: 00000000-0000-0000-0009-01f91b17485b)
+[22:21:13] [Server thread/INFO]: .Jossi7816 joined the game
+[22:21:13] [Server thread/INFO]: .Jossi7816[/172.18.0.1:0] logged in with entity id 1309 at ([lobby]41600.5, 104.0, 39225.5)
+[22:21:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2504ms or 50 ticks behind
+[22:21:21] [Server thread/WARN]: .Jossi7816 was kicked for floating too long!
+[22:21:21] [Server thread/INFO]: .Jossi7816 lost connection: Flying is not enabled on this server
+[22:21:22] [localSession-7-3/INFO]: [Geyser-Spigot] Jossi7816 has disconnected from the Java server because of Flying is not enabled on this server
+[22:21:22] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Jossi7816 disconnected
+[22:21:24] [Server thread/INFO]: .Jossi7816 left the game
+[22:21:42] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username Jossi7816 (975)
+[22:21:42] [localSession-7-4/INFO]: [Geyser-Spigot] Jossi7816 (logged in as: Jossi7816) has connected to the Java server
+[22:21:43] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Jossi7816 joined (UUID: 00000000-0000-0000-0009-01f91b17485b)
+[22:21:43] [Server thread/INFO]: .Jossi7816 joined the game
+[22:21:43] [Server thread/INFO]: .Jossi7816[/172.18.0.1:0] logged in with entity id 1631 at ([lobby]0.0, 65.2829253285644, 32.0)
+[22:22:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5287ms or 105 ticks behind
+[22:22:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3878ms or 77 ticks behind
+[22:22:53] [Server thread/INFO]: No entity was found
+[22:22:53] [Server thread/INFO]: Summoned new Armor Stand
+[22:22:57] [Server thread/INFO]: Spread 1 player(s) around 20000.5, 20000.5 with an average distance of 0.00 blocks apart
+[22:22:57] [Server thread/INFO]: Set the world spawn point to 28625, 79, 17323 [0.0]
+[22:22:57] [Server thread/INFO]: Set spawn point to 28625, 79, 17323 [0.0] in minecraft:overworld for 2 players
+[22:22:57] [Server thread/INFO]: Removed 5 item(s) from 2 players
+[22:22:57] [Server thread/INFO]: .Joss9503 was killed
+[22:22:57] [Server thread/INFO]: Killed 2 entities
+[22:22:57] [Server thread/INFO]: Killed Armor Stand
+[22:22:57] [Server thread/INFO]: Summoned new Armor Stand
+[22:23:02] [Server thread/INFO]: Spread 1 player(s) around 20000.5, 20000.5 with an average distance of 0.00 blocks apart
+[22:23:02] [Server thread/INFO]: Set the world spawn point to 18613, 63, 13730 [0.0]
+[22:23:02] [Server thread/INFO]: Set spawn point to 18613, 63, 13730 [0.0] in minecraft:overworld for 2 players
+[22:23:02] [Server thread/INFO]: No items were found on 2 players
+[22:23:02] [Server thread/INFO]: Killed 2 entities
+[22:23:02] [Server thread/INFO]: Killed Armor Stand
+[22:23:02] [Server thread/INFO]: No entity was found
+[22:23:02] [Server thread/INFO]: .Jossi7816 drowned
+[22:23:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-499 (MC: 1.20.4) ---
+[22:23:02] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[22:23:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:23:02] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[22:23:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:23:03] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[22:23:03] [Paper Watchdog Thread/ERROR]: 	PID: 52 | Suspended: false | Native: false | State: RUNNABLE
+[22:23:03] [Paper Watchdog Thread/ERROR]: 	Stack:
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.map.SWMRLong2ObjectHashTable.checkResize(SWMRLong2ObjectHashTable.java:413)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.map.SWMRLong2ObjectHashTable.addToSize(SWMRLong2ObjectHashTable.java:440)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.map.SWMRLong2ObjectHashTable.put(SWMRLong2ObjectHashTable.java:486)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.map.SWMRLong2ObjectHashTable.put(SWMRLong2ObjectHashTable.java:497)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkHolderManager$1.processLevelUpdates(ChunkHolderManager.java:339)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.ThreadedTicketLevelPropagator.performUpdate(ThreadedTicketLevelPropagator.java:302)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.ThreadedTicketLevelPropagator.performUpdates(ThreadedTicketLevelPropagator.java:366)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkHolderManager.processTicketUpdates(ChunkHolderManager.java:1350)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.ChunkHolderManager.processTicketUpdates(ChunkHolderManager.java:1320)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.runDistanceManagerUpdates(ServerChunkCache.java:415)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.saveIncrementally(ServerChunkCache.java:440)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1493)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1546)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000000045bd7ae0.run(Unknown Source)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.3/java.lang.Thread.runWith(Unknown Source)
+[22:23:03] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.3/java.lang.Thread.run(Unknown Source)
+[22:23:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:23:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[22:23:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:23:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16461ms or 329 ticks behind
+[22:23:25] [GeyserServer-3-1/WARN]: [org.cloudburstmc.netty.handler.codec.raknet.server.RakServerRateLimiter] [/172.18.0.1] Blocked because packet limit was reached
+[22:23:34] [GeyserServer-3-1/INFO]: [org.cloudburstmc.netty.handler.codec.raknet.server.RakServerRateLimiter] Unblocked address /172.18.0.1
+[22:23:34] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Joss9503 has disconnected from the Java server because of Bedrock client timed out
+[22:23:34] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Jossi7816 has disconnected from the Java server because of Bedrock client timed out
+[22:23:34] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Jossi7816 disconnected
+[22:23:34] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Joss9503 disconnected
+[22:23:34] [Server thread/INFO]: .Joss9503 lost connection: Disconnected
+[22:23:35] [Server thread/INFO]: .Joss9503 left the game
+[22:23:35] [Server thread/INFO]: .Jossi7816 lost connection: Disconnected
+[22:23:35] [Server thread/INFO]: .Jossi7816 left the game
+[22:23:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2983ms or 59 ticks behind
+[22:24:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5129ms or 102 ticks behind
+[22:24:02] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Player connected with username Jossi7816 (975)
+[22:24:03] [localSession-7-1/INFO]: [Geyser-Spigot] Jossi7816 (logged in as: Jossi7816) has connected to the Java server
+[22:24:18] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Jossi7816 joined (UUID: 00000000-0000-0000-0009-01f91b17485b)
+[22:24:18] [Server thread/INFO]: .Jossi7816 joined the game
+[22:24:18] [Server thread/INFO]: .Jossi7816[/172.18.0.1:0] logged in with entity id 2273 at ([lobby]18613.5, 63.0, 13730.5)
+[22:24:48] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username Joss9503 (975)
+[22:24:48] [localSession-7-2/INFO]: [Geyser-Spigot] Joss9503 (logged in as: Joss9503) has connected to the Java server
+[22:24:53] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Joss9503 joined (UUID: 00000000-0000-0000-0009-01fbabb77cdd)
+[22:24:53] [Server thread/INFO]: .Joss9503 joined the game
+[22:24:54] [Server thread/INFO]: .Joss9503[/172.18.0.1:0] logged in with entity id 2595 at ([lobby]18613.5, 63.0, 13730.5)
+[22:25:59] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Joss9503 disconnected
+[22:25:59] [Server thread/INFO]: .Joss9503 lost connection: Disconnected
+[22:25:59] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Joss9503 has disconnected from the Java server because of Bedrock client disconnected
+[22:26:00] [Server thread/INFO]: .Joss9503 left the game
+[22:27:13] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Jossi7816 disconnected
+[22:27:13] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Jossi7816 has disconnected from the Java server because of Bedrock client disconnected
+[22:27:13] [Server thread/INFO]: .Jossi7816 lost connection: Disconnected
+[22:27:14] [Server thread/INFO]: .Jossi7816 left the game
+[22:29:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2600ms or 52 ticks behind
+[22:31:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3768ms or 75 ticks behind

@@ -1,0 +1,503 @@
+#
+# Death Commands
+# Plugin made by Aiki Plugin Development
+# Contact: 
+#   Discord: https://discord.gg/RYTfade
+#
+
+#
+# Runs Commands and Broadcasts upon Player Death and Respawn 
+# 
+#
+
+# DONT CHANGE THIS SETTING
+# This is for Internal use of Death Commands on determining DeathActions Version
+# Changing this WILL Cause ERRORS
+Version: 2.3
+
+
+#
+# Plugin PlaceHolders 
+# Use these Placeholders in you Commands and Broadcasts
+#
+
+#
+# NOTICE If PlaceholderAPI (PAPI) Is Instslled:
+# Placeholders can be used in broadcasts or commands. BUT they will be placeholders for the Victim ONLY. you will NOT be able to use a PAPI Placeholder for an Attacker
+
+####### Victim Placeholders
+# %%Victim%% - Player that has Died
+# %%Victim-X%% - Player that has died X location
+# %%Victim-Y%% - Player that has died y location
+# %%Victim-Z%% - Player that has died z location
+# %%Victim-World%% - Player that has died World location
+# %%Victim-Deaths%% - Amount of times the Player has died
+# %%Victim-K/D%% - Kill/Death Ratio of Player that has died
+
+####### Attacker Placeholders
+# %%Attacker%% - Player that Killed Victim
+# %%Attacker-X%% - Player that Killed Victim x Location
+# %%Attacker-Y%% - Player that Killed Victim y Location
+# %%Attacker-Z%% - Player that Killed Victim z Location
+# %%Attacker-World%% - Player that Killed Victim World Location
+# %%Attacker-Health%% - Attackers Health 
+# %%Attacker-Kills%% - Amount of Kills Attacker Has
+# %%Attacker-K/D%% - Kill/Death Ration of Attacker
+
+####### Other Placeholder
+# %%Prefix%% - Prefix Defined in Config.Yml
+
+##### Example
+#COD:  <-- Ignore This
+#   ALL:  <-- Method Of Death
+#       Total: # <--- Put the Amount of Commands/Broadcasts for this type of death.  MUST be Integer. Set as 0 for no commands or broadcasts
+#       1: ''  <--- Command/Broadcast Spot. Place Commands or Broadcasts inside of apostrophe.
+#       2: ''  <--- As long as this Style is followed. Any amount of Commands can be Used.
+#################################################################################
+#                               Custom Death Messages                           #
+#################################################################################
+CDM:
+    Player-Damage: ''
+    Player-Projectile: ''
+    Player-Explosion: ''
+    Player-Magic: ''
+    Player-Fall: ''
+    Mob:  ''
+    Projectile: ''
+    Fall: ''
+    Drowning: ''
+    Mob-Explosion: ''
+    Explosion: ''
+    Lava: ''
+    Suffocation: ''
+    Contact: ''
+    Fire: ''
+    FlyIntoWall: ''
+    HotFloor: ''
+    Starvation: ''
+    Magic: ''
+    Wither: ''
+    Void: ''
+    Cramming: ''
+    Custom: ''
+    DragonBreath: ''
+    Dryout: ''
+    FallingBlock: ''
+    Poison: ''
+    Lightning: ''
+    Melting: ''
+    Suicide: ''
+    Thorns: ''
+    Else: ''
+############################################################################################
+#                               Commands To Occur Upon Death                               #
+############################################################################################
+COD:
+    ALL:
+        Total: 0
+        1: ''
+    Player-Damage:
+        Total: 0
+        1: ''
+    Player-Projectile:
+        Total: 0
+        1: ''
+    Player-Explosion:
+        Total: 0
+        1: ''
+    Player-Magic:
+        Total: 0
+        1: ''
+    Player-Fall:
+        Total: 0
+        1: ''
+    Mob:
+        Total: 0
+        1: ''
+    Projectile:
+        Total: 0
+        1: ''
+    Fall:
+        Total: 0
+        1: ''
+    Drowning:
+        Total: 0
+        1: ''
+    Mob-Explosion:
+        Total: 0
+        1: ''
+    Explosion:
+        Total: 0
+        1: ''
+    Lava:
+        Total: 0
+        1: ''
+    Suffocation:
+        Total: 0
+        1: ''
+    Contact:
+        Total: 0
+        1: ''
+    Fire:
+        Total: 0
+        1: ''
+    FlyIntoWall:
+        Total: 0
+        1: ''
+    HotFloor:
+        Total: 0
+        1: ''
+    Starvation:
+        Total: 0
+        1: ''
+    Magic:
+        Total: 0
+        1: ''
+    Wither:
+        Total: 0
+        1: ''
+    Void:
+        Total: 0
+        1: ''
+    Cramming:
+        Total: 0
+        1: ''
+    Custom:
+        Total: 0
+        1: ''
+    DragonBreath:
+        Total: 0
+        1: ''
+    Dryout:
+        Total: 0
+        1: ''
+    FallingBlock:
+        Total: 0
+        1: ''
+    Poison:
+        Total: 0
+        1: ''
+    Lightning:
+        Total: 0
+        1: ''
+    Melting:
+        Total: 0
+        1: ''
+    Suicide:
+        Total: 0
+        1: ''
+    Thorns:
+        Total: 0
+        1: ''
+    Else:
+        Total: 0
+        1: ''
+############################################################################################
+#                               Broadcasts To Occur Upon Death                             #
+############################################################################################
+BOD:
+    ALL:
+        Total: 0
+        1: ''
+    Player-Damage:
+        Total: 0
+        1: ''
+    Player-Projectile:
+        Total: 0
+        1: ''
+    Player-Explosion:
+        Total: 0
+        1: ''
+    Player-Magic:
+        Total: 0
+        1: ''
+    Player-Fall:
+        Total: 0
+        1: ''
+    Mob:
+        Total: 0
+        1: ''
+    Projectile:
+        Total: 0
+        1: ''
+    Fall:
+        Total: 0
+        1: ''
+    Drowning:
+        Total: 0
+        1: ''
+    Mob-Explosion:
+        Total: 0
+        1: ''
+    Explosion:
+        Total: 0
+        1: ''
+    Lava:
+        Total: 0
+        1: ''
+    Suffocation:
+        Total: 0
+        1: ''
+    Contact:
+        Total: 0
+        1: ''
+    Fire:
+        Total: 0
+        1: ''
+    FlyIntoWall:
+        Total: 0
+        1: ''
+    HotFloor:
+        Total: 0
+        1: ''
+    Starvation:
+        Total: 0
+        1: ''
+    Magic:
+        Total: 0
+        1: ''
+    Wither:
+        Total: 0
+        1: ''
+    Void:
+        Total: 0
+        1: ''
+    Cramming:
+        Total: 0
+        1: ''
+    Custom:
+        Total: 0
+        1: ''
+    DragonBreath:
+        Total: 0
+        1: ''
+    Dryout:
+        Total: 0
+        1: ''
+    FallingBlock:
+        Total: 0
+        1: ''
+    Poison:
+        Total: 0
+        1: ''
+    Lightning:
+        Total: 0
+        1: ''
+    Melting:
+        Total: 0
+        1: ''
+    Suicide:
+        Total: 0
+        1: ''
+    Thorns:
+        Total: 0
+        1: ''
+    Else:
+        Total: 0
+        1: ''
+############################################################################################
+#                               Commands To Occur Upon Respawn                             #
+############################################################################################
+COR:
+    ALL:
+        Total: 0
+        1: ''
+    Player-Damage:
+        Total: 0
+        1: ''
+    Player-Projectile:
+        Total: 0
+        1: ''
+    Player-Explosion:
+        Total: 0
+        1: ''
+    Player-Magic:
+        Total: 0
+        1: ''
+    Player-Fall:
+        Total: 0
+        1: ''
+    Mob:
+        Total: 0
+        1: ''
+    Projectile:
+        Total: 0
+        1: ''
+    Fall:
+        Total: 0
+        1: ''
+    Drowning:
+        Total: 0
+        1: ''
+    Mob-Explosion:
+        Total: 0
+        1: ''
+    Explosion:
+        Total: 0
+        1: ''
+    Lava:
+        Total: 0
+        1: ''
+    Suffocation:
+        Total: 0
+        1: ''
+    Contact:
+        Total: 0
+        1: ''
+    Fire:
+        Total: 0
+        1: ''
+    FlyIntoWall:
+        Total: 0
+        1: ''
+    HotFloor:
+        Total: 0
+        1: ''
+    Starvation:
+        Total: 0
+        1: ''
+    Magic:
+        Total: 0
+        1: ''
+    Wither:
+        Total: 0
+        1: ''
+    Void:
+        Total: 0
+        1: ''
+    Cramming:
+        Total: 0
+        1: ''
+    Custom:
+        Total: 0
+        1: ''
+    DragonBreath:
+        Total: 0
+        1: ''
+    Dryout:
+        Total: 0
+        1: ''
+    FallingBlock:
+        Total: 0
+        1: ''
+    Poison:
+        Total: 0
+        1: ''
+    Lightning:
+        Total: 0
+        1: ''
+    Melting:
+        Total: 0
+        1: ''
+    Suicide:
+        Total: 0
+        1: ''
+    Thorns:
+        Total: 0
+        1: ''
+    Else:
+        Total: 0
+        1: ''
+############################################################################################
+#                               Broadcasts To Occur Upon Respawn                           #
+############################################################################################
+BOR:
+    ALL:
+        Total: 0
+        1: ''
+    Player-Damage:
+        Total: 0
+        1: ''
+    Player-Projectile:
+        Total: 0
+        1: ''
+    Player-Explosion:
+        Total: 0
+        1: ''
+    Player-Magic:
+        Total: 0
+        1: ''
+    Player-Fall:
+        Total: 0
+        1: ''
+    Mob:
+        Total: 0
+        1: ''
+    Projectile:
+        Total: 0
+        1: ''
+    Fall:
+        Total: 0
+        1: ''
+    Drowning:
+        Total: 0
+        1: ''
+    Mob-Explosion:
+        Total: 0
+        1: ''
+    Explosion:
+        Total: 0
+        1: ''
+    Lava:
+        Total: 0
+        1: ''
+    Suffocation:
+        Total: 0
+        1: ''
+    Contact:
+        Total: 0
+        1: ''
+    Fire:
+        Total: 0
+        1: ''
+    FlyIntoWall:
+        Total: 0
+        1: ''
+    HotFloor:
+        Total: 0
+        1: ''
+    Starvation:
+        Total: 0
+        1: ''
+    Magic:
+        Total: 0
+        1: ''
+    Wither:
+        Total: 0
+        1: ''
+    Void:
+        Total: 0
+        1: ''
+    Cramming:
+        Total: 0
+        1: ''
+    Custom:
+        Total: 0
+        1: ''
+    DragonBreath:
+        Total: 0
+        1: ''
+    Dryout:
+        Total: 0
+        1: ''
+    FallingBlock:
+        Total: 0
+        1: ''
+    Poison:
+        Total: 0
+        1: ''
+    Lightning:
+        Total: 0
+        1: ''
+    Melting:
+        Total: 0
+        1: ''
+    Suicide:
+        Total: 0
+        1: ''
+    Thorns:
+        Total: 0
+        1: ''
+    Else:
+        Total: 0
+        1: ''

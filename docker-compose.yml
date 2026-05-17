@@ -1,0 +1,22 @@
+services:
+  mc-server:
+    image: itzg/minecraft-server:latest
+    container_name: mc_hardcore_fluido
+    ports:
+      - "25565:25565"     # Puerto para Java
+      - "19132:19132/udp" # Puerto para Bedrock
+    environment:
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      VERSION: "1.20.4"
+      MEMORY: "4G"
+      DIFFICULTY: "hard"
+      ONLINE_MODE: "false"
+      # --- CONFIGURACIÓN DE PLUGINS ---
+      PLUGINS_PUBLIC_REPOS: "geyser,floodgate"
+      GEYSER_AUTH_TYPE: "floodgate"
+      # --- ESTA ES LA LÍNEA QUE NECESITAMOS ---
+      CREATE_CONSOLE_IN_PIPE: "true"
+    volumes:
+      - ./data:/data
+    restart: always

@@ -1,0 +1,14 @@
+reiniciarmundo:
+  command: /reiniciarmundo
+  type: RUN_CONSOLE
+  register: true
+  runcmd:
+  - '/minecraft:kill @e[tag=new_spawn]'
+  - '/minecraft:summon armor_stand ~ ~ ~ {Tags:["new_spawn"],Marker:1b,Invisible:1b}'
+  - '/minecraft:spreadplayers 20000 20000 10000 30000 false @e[tag=new_spawn]'
+  - '/minecraft:execute at @e[tag=new_spawn] run setworldspawn ~ ~ ~'
+  - '/minecraft:execute at @e[tag=new_spawn] run spawnpoint @a ~ ~ ~'
+  - '/minecraft:clear @a'
+  - '/minecraft:kill @a'
+  - '/minecraft:kill @e[tag=new_spawn]'
+  permission-required: false
